@@ -115,8 +115,7 @@ p {
 .contact:focus {
   color: var(--accent-color);
 }
-/* відступи */
-/* порядок міняти не можна правило використання останього специфікація */
+/* Відступи навігація */
 
 .nav-list li:not(:first-child), .tel{
     margin-left: 50px;
