@@ -15,11 +15,11 @@
     <header class="logo-top">
         <div class="container flex">
             <a href="./index.html" class="logo-all"> <span class="logo-first">Web</span><span class="logo-second">Studio</span></a>
-        <nav>
+        <nav class="nav-list">
         <ul class="resed flex">
             <li> <a href="./index.html" class="nav active">Студія</a> </li>
-            <li> <a href="./portfolio.html" class="nav top-nav">Портфоліо</a></li>
-            <li> <a href="" class="nav top-nav">Контакти</a></li>
+            <li> <a href="./portfolio.html" class="nav">Портфоліо</a></li>
+            <li> <a href="" class="nav">Контакти</a></li>
         </ul>
         </nav>
         <ul class="resed flex">
@@ -32,14 +32,14 @@
     </header>
     <main>
     <section class="hero">
-        <div class="container hero-box">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <!-- <div class="container hero-box"> -->
+            <h1 class="hero-title">Ефективні рішення для<br> вашого бізнесу</h1>
             <button type="button" class="button">Замовити послугу</button>
-        </div>
+        <!-- </div> -->
         
     </section>
     <section class="skils">
-        <h2 class="title">Навички</h2> <!--Заголовок треба приховати в css-->
+        <h2 class="title-none">Навички</h2> <!--Заголовок треба приховати в css-->
         <div class="container">    
         <ul class="resed flex">
             <li>
@@ -85,25 +85,28 @@
         <ul class="resed flex">
             <li class="team-card"> 
                 <img src="./images/formatjpg/team/team1.jpg" alt="Ігор Дем'яненко" width="270">
-                <h3 class="team-name">Ігор Дем'яненко </h3> 
-                <h4 class="team-prof">Product Designer</h4>
-            
+                <div class="team-list">
+                    <h3 class="team-name">Ігор Дем'яненко </h3> 
+                <p class="team-prof">Product Designer</p>
+            </div>
+                
             </li>
             <li class="team-card">
                 <img src="./images/formatjpg/team/team2.jpg" alt="Ольга Рєпіна" width="270">
-                <h3 class="team-name">Ольга Рєпіна </h3>
-                <h4 class="team-prof">Frontend Developer</h4>    
+                <div class="team-list"><h3 class="team-name">Ольга Рєпіна </h3>
+                <p class="team-prof">Frontend Developer</p>
+            </div>    
             </li>
             <li class="team-card">
                 <img src="./images/formatjpg/team/team3.jpg" alt="Микола Тарасов" width="270">
-                <h3 class="team-name">Микола Тарасов</h3>  
-                <h4 class="team-prof">Marketing</h4> 
+                <div class="team-list"><h3 class="team-name">Микола Тарасов</h3>  
+                <p class="team-prof">Marketing</p></div> 
                 
             </li>
             <li class="team-card">
                 <img src="./images/formatjpg/team/team4.jpg" alt="Михайло Єрмаков" width="270">
-                <h3 class="team-name">Михайло Єрмаков</h3>   
-                <h4 class="team-prof">UI Designer</h4> 
+                <div class="team-list"><h3 class="team-name">Михайло Єрмаков</h3>   
+                <p class="team-prof">UI Designer</p> </div>
                 
             </li>
         </ul>
