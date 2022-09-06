@@ -117,12 +117,13 @@ p {
 }
 /* відступи */
 /* порядок міняти не можна правило використання останього специфікація */
-.logo-top .contact {
-  margin-left: 344px;
+
+.nav-list li:not(:first-child), .tel{
+    margin-left: 50px;
 }
 
-.nav-list li:not(:first-child){
-    margin-left: 50px;
+.mail {
+  margin-left: 344px;
 }
 
 /* main головна */
