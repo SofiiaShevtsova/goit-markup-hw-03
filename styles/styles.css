@@ -285,7 +285,7 @@ border: transparent;
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* портфоліо */
+/*-------------------------------------------------------------- портфоліо */
 /* .container.button-list {
   padding-top: 50px;
   padding-bottom: 25px;
@@ -333,7 +333,7 @@ border: transparent;
 }
 .proj-card {
   border: 1px solid rgba(238, 238, 238, 1);
-  padding-bottom: 20px;
+  padding: 20px 24px;
   border-top: none;
 }
 .proj-name {
@@ -341,15 +341,11 @@ border: transparent;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+ 
 }
 .proj-class {
   color: var(--second--text-color);
   font-size: 16px;
   line-height: 1.88;
   margin-top: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
