@@ -290,8 +290,12 @@ border: transparent;
   padding-top: 50px;
   padding-bottom: 25px;
 } */
+
+.proj{
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 .button-list {
-    margin-top: 94px;
     margin-bottom: 50px;
     justify-content: center;
 }
@@ -328,6 +332,7 @@ border: transparent;
   flex-wrap: wrap;
   row-gap: 30px;
 }
+
 .proj-list img {
   display: block;
 }
