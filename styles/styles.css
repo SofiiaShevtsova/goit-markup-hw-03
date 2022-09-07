@@ -47,8 +47,17 @@ p {
 }
 /* ховаємо заголовок */
 .title-none {
-  max-height: 0px;
-  color: transparent;
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* .visually-hidden {
@@ -116,8 +125,17 @@ p {
 .active {
   color: var(--accent-color);
 }
+
+.contact-list {
+  margin-left: 318px;
+}
+
+.tel{
+  margin-left: 30px;
+}
+
 .contact {
-  display: inline-block;
+  display: flex;
 
   color: var(--second--text-color);
   font-weight: 500;
@@ -125,19 +143,20 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.contact-icon {
+fill: currentColor;
+margin-right: 10px;
+}
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
 }
 /* Відступи навігація */
 
-.nav-list li:not(:first-child), .tel{
+.nav-list li:not(:first-child) {
     margin-left: 50px;
 }
 
-.mail {
-  margin-left: 344px;
-}
 
 /* main головна */
 .hero {
@@ -151,6 +170,12 @@ p {
   min-height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
+
+  background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url("/images/hero.jpg");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
 }
 /* .hero-box {
   text-align: center;
