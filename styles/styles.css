@@ -130,7 +130,7 @@ p {
   margin-left: auto;
 }
 
-.tel{
+.contact-list>li:last-child{
   margin-left: 30px;
 }
 
@@ -151,6 +151,7 @@ margin-right: 10px;
 .contact:focus {
   color: var(--accent-color);
 }
+
 /* Відступи навігація */
 
 .nav-list li:not(:first-child) {
@@ -232,6 +233,14 @@ border: transparent;
   line-height: 1.71;
   color: var(--second--text-color);
 }
+
+.skils-icon{
+  width: 270;
+  height: 120;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
