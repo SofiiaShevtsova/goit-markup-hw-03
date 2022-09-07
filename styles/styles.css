@@ -43,7 +43,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 /* ховаємо заголовок */
 .title-none {
@@ -94,7 +94,7 @@ p {
   line-height: 1.19;
 }
 
-.logo-top .container {
+.logo-top {
   padding-bottom: 24px;
   padding-top: 24px;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
@@ -197,8 +197,9 @@ border: transparent;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.skils .container {
+.skils {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .skils-text {
@@ -214,6 +215,9 @@ border: transparent;
 }
 
 /* робота */
+.work{
+  padding-bottom: 94px;
+}
 
 .work .title {
   margin-bottom: 50px;
@@ -225,9 +229,10 @@ border: transparent;
 /* team */
 .team {
   background-color: var(--first-bgr-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team .title {
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 .team-card {
@@ -259,8 +264,6 @@ border: transparent;
 /* футер */
 .logo-bot {
   background-color: var(--second-bgr-color);
-}
-.logo-bot .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
