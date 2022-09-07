@@ -1,4 +1,3 @@
-
 :root {
   --first-text-color: #212121;
   --second--text-color: #757575;
@@ -48,16 +47,16 @@ p {
 /* ховаємо заголовок */
 .title-none {
   position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-  
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* .visually-hidden {
@@ -130,7 +129,7 @@ p {
   margin-left: auto;
 }
 
-.contact-list>li:last-child{
+.contact-list > li:last-child {
   margin-left: 30px;
 }
 
@@ -144,8 +143,8 @@ p {
   letter-spacing: 0.02em;
 }
 .contact-icon {
-fill: currentColor;
-margin-right: 10px;
+  fill: currentColor;
+  margin-right: 10px;
 }
 .contact:hover,
 .contact:focus {
@@ -155,15 +154,14 @@ margin-right: 10px;
 /* Відступи навігація */
 
 .nav-list li:not(:first-child) {
-    margin-left: 50px;
+  margin-left: 50px;
 }
-
 
 /* main головна */
 .hero {
   background-color: var(--second-bgr-color);
   color: var(--button-color);
-  
+
   text-align: center;
 
   margin-left: auto;
@@ -172,11 +170,14 @@ margin-right: 10px;
   padding-top: 200px;
   padding-bottom: 200px;
 
-  background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-  url("/images/hero.jpg");
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position:center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("./images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: center;
 }
 /* .hero-box {
   text-align: center;
@@ -184,8 +185,8 @@ margin-right: 10px;
 .hero-title {
   margin-bottom: 30px;
   max-width: 700px;
-    margin-left: auto;
-      margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 
   font-weight: 900;
   font-size: 44px;
@@ -195,11 +196,11 @@ margin-right: 10px;
 }
 
 .button {
-    min-width: 216px;
-    height: 50px;
+  min-width: 216px;
+  height: 50px;
 
-border-radius: 4px;
-border: transparent;
+  border-radius: 4px;
+  border: transparent;
 
   color: var(--button-color);
   background-color: var(--accent-color);
@@ -228,17 +229,19 @@ border: transparent;
   padding-bottom: 94px;
 }
 
+.skils li:not(:first-child) {
+  margin-left: 30px;
+}
+
 .skils-text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--second--text-color);
 }
 
-.skils-icon{
-  width: 270;
-  height: 120;
+.skils-icon {
   margin-bottom: 30px;
-  align-items: center;
+  padding: 25px 100px;
 }
 
 .title {
@@ -249,7 +252,7 @@ border: transparent;
 }
 
 /* робота */
-.work{
+.work {
   padding-bottom: 94px;
 }
 
@@ -258,7 +261,7 @@ border: transparent;
 }
 
 .work img {
-    display: block;
+  display: block;
 }
 /* team */
 .team {
@@ -271,16 +274,20 @@ border: transparent;
 }
 .team-card {
   background-color: var(--all-bgr-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-  0px 1px 1px rgba(0, 0, 0, 0.14), 
-  0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team img {
   display: block;
 }
-.team-list{
+.team-list {
   padding: 30px 10px;
+}
+
+.team-list .resed {
+  margin-top: 16px;
+  justify-content: center;
 }
 
 .team-name {
@@ -292,13 +299,36 @@ border: transparent;
   text-align: center;
 }
 .team-prof {
-  
-
   color: var(--second--text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
+
+.icon-team:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-team svg {
+  padding: 12px;
+}
+
+.icon-link {
+  display: block;
+  color: #afb1b8;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.icon-link svg {
+  fill: currentColor;
+}
+
 /* футер */
 .logo-bot {
   background-color: var(--second-bgr-color);
@@ -329,18 +359,18 @@ border: transparent;
   padding-bottom: 25px;
 } */
 
-.proj{
+.proj {
   margin-top: 94px;
   margin-bottom: 94px;
 }
 .button-list {
-    margin-bottom: 50px;
-    justify-content: center;
+  margin-bottom: 50px;
+  justify-content: center;
 }
 .button-proj {
-    border: transparent;
-    border-radius: 4px;
-    padding: 6px 22px;
+  border: transparent;
+  border-radius: 4px;
+  padding: 6px 22px;
 
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -351,8 +381,8 @@ border: transparent;
   color: var(--first-text-color);
   cursor: pointer;
 }
-.button-list>li:not(:last-child){
-   margin-right: 8px; 
+.button-list > li:not(:last-child) {
+  margin-right: 8px;
 }
 
 .button-proj:hover,
