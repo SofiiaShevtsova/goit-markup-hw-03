@@ -152,16 +152,18 @@ p {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.hero-box {
+/* .hero-box {
   text-align: center;
-}
+} */
 .hero-title {
   margin-bottom: 30px;
+  max-width: 700px;
+    margin-left: auto;
+      margin-right: auto;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -178,7 +180,7 @@ border: transparent;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
+  text-align: inherit;
   letter-spacing: 0.06em;
 }
 
